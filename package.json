@@ -1,0 +1,4 @@
+{
+  "name": "expo-android-release-config",
+  "packageManager": "yarn@4.1.1"
+}
