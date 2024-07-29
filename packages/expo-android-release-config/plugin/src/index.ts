@@ -5,11 +5,11 @@ const androidSigningConfig = `
 android {
     signingConfigs {
         release {
-            file("../../signing.properties").with { propFile ->
+            rootDir.toPath().resolveSibling("signing.properties").toFile().with { propFile ->
                 if (propFile.canRead()) {
                     def properties = new Properties()
                     properties.load(new FileInputStream(propFile))
-                    storeFile file(properties['keystorePath'])
+                    storeFile propFile.toPath().resolveSibling(properties['keystorePath']).toFile()
                     storePassword properties['keystorePassword']
                     keyAlias properties['keyAlias']
                     keyPassword properties['keyPassword']
