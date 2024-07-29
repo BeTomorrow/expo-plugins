@@ -1729,14 +1729,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@betomorrow/expo-android-release-config@workspace:.":
+"@betomorrow/expo-android-release-config@workspace:packages/expo-android-release-config":
   version: 0.0.0-use.local
-  resolution: "@betomorrow/expo-android-release-config@workspace:."
+  resolution: "@betomorrow/expo-android-release-config@workspace:packages/expo-android-release-config"
   dependencies:
     "@expo/config-plugins": "npm:^8.0.8"
     expo-module-scripts: "npm:^3.5.2"
   peerDependencies:
     "@expo/config-plugins": "*"
+  languageName: unknown
+  linkType: soft
+
+"@betomorrow/expo-plugins@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@betomorrow/expo-plugins@workspace:."
   languageName: unknown
   linkType: soft
 

@@ -24,13 +24,8 @@ Installing this package in a bare React Native project is pointless since you ca
 
 ### Add the package to your npm dependencies
 
+Any package manager will do, adjust to your preferences.
+
 ```
 npm install expo-android-release-config
 ```
-
-
-
-
-# Contributing
-
-Contributions are very welcome! Please refer to guidelines described in the [contributing guide]( https://github.com/expo/expo#contributing).
