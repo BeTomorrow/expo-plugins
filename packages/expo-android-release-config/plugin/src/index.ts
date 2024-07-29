@@ -5,7 +5,7 @@ const androidSigningConfig = `
 android {
     signingConfigs {
         release {
-            file("../signing.properties").with { propFile ->
+            file("../../signing.properties").with { propFile ->
                 if (propFile.canRead()) {
                     def properties = new Properties()
                     properties.load(new FileInputStream(propFile))

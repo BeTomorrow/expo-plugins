@@ -16,7 +16,7 @@ No extra configuration can be passed to the plugin at the moment.
 
 Rerun `npx expo prebuild --clean` for the plugin to apply.
 
-Plugin expect a file located at `android/signing.properties` (from your Expo app root), whose keys are described in the [example file](./examples/signing.properties).
+Plugin expect a `signing.properties` file within your Expo app root, whose keys are described in the [example file](./examples/signing.properties).
 
 # Installation in bare React Native projects
 
