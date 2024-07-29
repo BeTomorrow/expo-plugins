@@ -11,6 +11,7 @@
   },
   "main": "app.plugin.js",
   "scripts": {
+    "prepack": "yarn plugin:build",
     "plugin:build": "expo-module build plugin",
     "plugin:clean": "expo-module clean plugin"
   },
