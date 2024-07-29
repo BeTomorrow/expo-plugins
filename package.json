@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/betomorrow/expo-android-release-config/issues"
   },
+  "main": "build/index.js",
   "scripts": {
     "build": "expo-module build",
     "clean": "expo-module clean",
