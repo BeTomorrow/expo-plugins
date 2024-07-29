@@ -1,6 +1,6 @@
 # @betomorrow/expo-android-release-config
 
-Provide Android signing release of your Expo CNG app from file.
+Provide Android signing release of your Expo CNG app from file without using EAS.
 
 # Installation in managed Expo projects
 

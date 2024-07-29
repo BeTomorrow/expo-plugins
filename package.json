@@ -1,6 +1,6 @@
 {
   "name": "@betomorrow/expo-plugins",
-  "description": "Common Expo plugins for Betomorrow projects",
+  "description": "Simple Expo plugins for common use cases",
   "packageManager": "yarn@4.3.1",
   "private": true,
   "workspaces": [

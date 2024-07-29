@@ -1,6 +1,6 @@
 # @betomorrow/expo-android-inject-version
 
-Inject Android version code from your Gradle properties.
+Inject Android version code from your Gradle properties without using EAS.
 
 # Installation in managed Expo projects
 
