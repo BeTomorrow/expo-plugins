@@ -3,9 +3,6 @@ import { withAppBuildGradle, type ConfigPlugin } from "@expo/config-plugins";
 
 const androidSigningConfig = `
 android {
-    defaultConfig {
-        versionCode project.hasProperty("versionCode") ? project.property("versionCode") as Integer : 1
-    }
     signingConfigs {
         release {
             file("../signing.properties").with { propFile ->
