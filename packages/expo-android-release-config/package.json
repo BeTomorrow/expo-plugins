@@ -1,12 +1,12 @@
 {
   "name": "@betomorrow/expo-android-release-config",
-  "homepage": "https://github.com/betomorrow/expo-android-release-config#readme",
+  "homepage": "https://github.com/betomorrow/expo-plugins#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betomorrow/expo-android-release-config.git"
+    "url": "git+https://github.com/betomorrow/expo-plugins.git"
   },
   "bugs": {
-    "url": "https://github.com/betomorrow/expo-android-release-config/issues"
+    "url": "https://github.com/betomorrow/expo-plugins/issues"
   },
   "main": "app.plugin.js",
   "scripts": {
