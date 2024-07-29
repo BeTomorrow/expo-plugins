@@ -1,5 +1,6 @@
 {
   "name": "@betomorrow/expo-app-name",
+  "version": "0.0.0",
   "homepage": "https://github.com/betomorrow/expo-plugins#readme",
   "repository": {
     "type": "git",
