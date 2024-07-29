@@ -1,0 +1,27 @@
+{
+  "name": "@betomorrow/expo-app-name",
+  "homepage": "https://github.com/betomorrow/expo-android-release-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betomorrow/expo-android-release-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/betomorrow/expo-android-release-config/issues"
+  },
+  "main": "build/index.js",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^8.0.8",
+    "expo-module-scripts": "^3.5.2"
+  },
+  "peerDependencies": {
+    "@expo/config-plugins": "*"
+  }
+}
